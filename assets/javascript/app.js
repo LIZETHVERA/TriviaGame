@@ -166,7 +166,7 @@ function showAnswer(){
     console.log(rightAnswerIndex);
 
     var gitLink = triviaQuestions[currectQuestion].image;
-    var giffy = $("<img>");
+    var giffy = $('<img>');
     giffy.attr("src",gitLink);
     giffy.addClass("gifImag");
     $("#gif").html(giffy);
