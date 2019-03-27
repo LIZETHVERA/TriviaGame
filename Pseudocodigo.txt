@@ -1,0 +1,93 @@
+1. Create an array that store a question objects.
+2. Create an object {
+ Question: ??
+ array answer [ 1,2,3,4]
+ correct answer: Number of the position in the array.
+}
+
+3. Create a div to show the questions and the time for each question. 
+
+
+4. Create a function to iterate in the array. 
+3. Show the quetion and the timer for the question.  
+4. if the cuestions is correct store the score in a variables wins, show a message congratulating and
+show the next question. 
+5. Else if the cuestion is false store the score in a variable lost, show a message they select a wrong answer
+show the correct answer and show the next question.  
+6. Else if the time out store the score in a variable no answer, tell the player the time is up and
+show the correct answer. 
+
+
+1. In what year did the American animated sitcom "The Simpsons" make its debut? 
+
+a. 1987 - C
+b. 1990
+c. 1996
+d. 1993
+
+2. What is the name of Lisa Simpson's favorite doll? 
+
+a. Malibu Princess
+b. Malibu Julie
+c. Malibu Francis
+d. Malibu Stacy - C
+
+3. What name is given to the three-eyed fish in the third episode of the first season "Homer's Odyssey"? 
+
+a. Winky
+b. Blinky - C
+c. Minky
+d. Stinky
+
+4. Who do Legs and Louie work for in the Simpsons? 
+
+a. Fat Tony - C
+b. Apu
+c. Willie
+d. Mr. Burns
+
+5. Who is fired from his job due to Homer getting food poisoning in season five? 
+
+a. Smithers
+b. Lenny
+c. Apu - c
+d. Karl
+
+6. What is the Simpsons' dog's name?
+
+a. Santa's Little Helper - C
+b. Santa's Little dog
+c. Santa's Little snowBall
+d. Santa's Little Helper reindeer. 
+
+7. What is Krusty the Clown's monkey's name?
+
+a. Mr. Teeny - c 
+b. Mr. Teen 
+c. Mr. Jeeny 
+d. Mr. monkey
+
+8.  What "Simpsons" character has a full set of five fingers?
+
+a. Apu
+b. Lenny
+c. God - C
+d. Bob Patino
+
+9. Ralph's last name is which of these?
+
+a. Syslak
+b. Bouvier
+c. Burns
+d. Wiggum - C   
+
+10.  Which of these is the name of a highway that runs through the town of Springfield?
+a. Bing Crosby Expressway
+b. Tom Jones Expressway
+c. Mick Jagger Expressway
+d. Michael Jackson Expressway - C
+
+
+console.log(triviaQuestions[0].Question);
+console.log(triviaQuestions[0].choises[2]);
+console.log(triviaQuestions[0].correctAnswer);
