@@ -25,7 +25,7 @@ var triviaQuestions = [{
         question:  "What is the name of Lisa Simpson's favorite doll? ",
         choices: ["Malibu Princess","Malibu Julie", "Malibu Francis", "Malibu Stacy" ],
         correct: 3,
-        image: "assets/images/MalibuStacy.gif",
+        image: "assets/images/malibu.gif",
     },{ 
         question:  "What name is given to the three-eyed fish in the third episode of the first season 'Homer's Odyssey'?",
         choices: ["Winky","Blinky", "Minky", "Stinky" ],
@@ -40,7 +40,7 @@ var triviaQuestions = [{
         question:  "Who is fired from his job due to Homer getting food poisoning in season five? ",
         choices: ["Smithers","Lenny", "Apu", "Karl" ],
         correct: 2,
-        image: "assets/images/ApuFired.gif",
+        image: "assets/images/apu.gif",
     },{ 
         question:  "What is the Simpsons' dog's name",
         choices: ["Santa's Little Helper reindeer","Santa's Little helper", "Santa's Little snowball", " Santa's Little dog" ],
