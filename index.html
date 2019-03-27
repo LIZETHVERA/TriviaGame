@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Cross Browser Compatability -->
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+
+	<!-- Viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap 3 & 4-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<!-- Personal CSS Style -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding|Rajdhani|Rock+Salt|Source+Code+Pro|Ubuntu+Mono" rel="stylesheet">
+
+	<title>The Simpsons Trivia game</title>
+</head>
+<body>
+<!-- ==================== -->
+<!-- Main Image -->
+<!-- ==================== -->
+	<div class="jumbotron col-md-12" id="jumbo1">
+	</div>
+
+<!-- ==================== -->
+<!-- Main Content -->
+<!-- ==================== -->
+	<div class="container col-md-12">
+		<!-- ===================== -->
+		<!-- TITLE -->
+		<div class="row text-center">
+			<h1 id="triviaTitle">The Simpsons Trivia game</h1>
+		</div>
+		<!-- Start Button -->
+		<div class="jumbotron text-center" id="startGame">
+			<button id="startBtn">Begin</button>
+		</div>
+		<div class="jumbotron text-center" id="gameArea">
+			<!-- QUESTIONS -->
+			<div class="container" id="questions">
+				<div id="time"></div>
+				<div class="question"></div><br>
+				<div class="choices"></div>
+			</div>
+			<!-- ANSWERS -->
+			<div class="container" id="answers">
+				<div id="text"></div>
+				<div id="correctAnswer"></div>
+				<div id="gif"></div><br>
+				<div id="gifText"></div>
+			</div>
+			<!-- RESULTS -->
+			<div class="container" id="results">
+				<div id="resultText"></div>
+				<div id="correctAnswers"></div>
+				<div id="wrongAnswers"></div>
+				<div id="unanswered"></div><br>
+				<button id="startOverBtn"></button>
+			</div>
+		</div>
+	</div>
+
+
+
+<!-- jQuery Link -->
+<script src="https://code.jquery.com/jquery.js"></script>
+
+<!-- Javascript Link -->
+<script src="assets/javascript/app.js"></script>
+</body>
+</html>
