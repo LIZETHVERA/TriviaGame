@@ -1,0 +1,50 @@
+body {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 20px;
+    background-image: url(../images/back.jpg);
+    background-repeat: no-repeat;
+}
+
+#triviaTitle {
+    width: 100%;
+    margin: 20px;
+    
+}
+
+#startBtn:hover {
+    
+    background-color:rgb(94, 204, 238);
+}
+  
+#startBtn {
+    padding: 20px 40px;
+}
+
+#startGame, #gameArea {
+    background-color: rgb(253, 255, 150);
+}
+
+#jumbo1 {
+    background-color: white;
+    background-image: url(../images/SIMPSONSTRIVIA.png);
+    background-repeat: no-repeat;
+    padding: 70px;
+}
+
+#correctAnswer {
+    background-color: rgb(161, 217, 243);
+}
+
+#text {
+    font-size: 30px;
+}
+
+.thisChoise:hover {
+    background-color:rgb(94, 204, 238);
+    padding: 20px;   
+}
+
+.img-responsive  {
+    display: unset;
+    margin: 20px 0px;
+}

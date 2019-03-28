@@ -130,7 +130,7 @@ function questions() {
 
 function countdown() {
     seconds = 20;
-    $("#time").html("00:" + seconds);
+    $("#time").html("time: " + seconds);
     answered = true;
     //Delay of 1 sec before timer goes off
     time = setInterval(countdownShow, 1000);
@@ -140,10 +140,11 @@ function countdown() {
 function countdownShow() {
     seconds --;
     if (seconds < 10) {
-        $("#time").html("00:0" + seconds);
-        $("#time").css({"color": "purple"});
+        $("#time").html("time: " + seconds);
+        $("#time").css({"color": "red"});
+        
     }else {
-        $("#time").html("00:0" + seconds);
+        $("#time").html("time: " + seconds);
         $("#time").css({"color": "blue"});
     }
 
@@ -168,7 +169,7 @@ function showAnswer(){
     var gitLink = triviaQuestions[currectQuestion].image;
     var giffy = $('<img>');
     giffy.attr("src",gitLink);
-    giffy.addClass("gifImag");
+    giffy.addClass("img-responsive");
     $("#gif").html(giffy);
 
    if ((userChoise === rightAnswerIndex) && (answered === true)){
@@ -194,7 +195,7 @@ function showAnswer(){
 
     } else {
        currectQuestion ++;
-       setTimeout (questions, 2000);
+       setTimeout (questions, 3000);
    }
 }
 
