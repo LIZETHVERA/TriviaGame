@@ -20,7 +20,7 @@ var triviaQuestions = [{
         question:  "In what year did the American animated sitcom 'The Simpson' make its debut?",
         choices: ["1987"," 1990", "1996", "1993" ],
         correct: 0,
-        image: "assets/images/simpsons1987.gif",
+        image: "assets/images/simpsons1.gif",
     },{ 
         question:  "What is the name of Lisa Simpson's favorite doll? ",
         choices: ["Malibu Princess","Malibu Julie", "Malibu Francis", "Malibu Stacy" ],
