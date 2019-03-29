@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+// Declare the variables 
     var currectQuestion;
     var correctAnswer;
     var wrongAnswer;
@@ -9,13 +9,15 @@ $(document).ready(function() {
     var time;
     var userChoise;
 
+//-- An Object: Show little message after the user select or not the option --//
+
     var text = {
         correct:"Yehi! Good Job",
         incorrect: "Wrong answer! Good luke next time",
         noTime:"you've got to be quicker",
         done: "It is done",
     };
-
+//-- The array with objects inside with the questions --//
 var triviaQuestions = [{ 
         question:  "In what year did the American animated sitcom 'The Simpson' make its debut?",
         choices: ["1987"," 1990", "1996", "1993" ],
@@ -211,7 +213,6 @@ function results () {
 	$("#startOverBtn").show();
 	$("#startOverBtn").html("RESTART GAME");
 }
-
 
 
 
