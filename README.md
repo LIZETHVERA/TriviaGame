@@ -17,5 +17,5 @@ The most challenge was to iterate over the object and show one questions at a ti
 
 # ScreenShot: 
 
-https://github.com/LIZETHVERA/TriviaGame/blob/master/assets/images/Capture.PNG
+![Alt text](https://github.com/LIZETHVERA/TriviaGame/blob/master/assets/images/Capture.PNG)
 
